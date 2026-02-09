@@ -41,31 +41,325 @@
             </div>
         </div>
         
-        <!-- ========================================
-             CONTENT HIER EINFÜGEN
-             
-             Kopiere aus deinem Original-Dokument:
-             - Von: <div class="theme-content">
-             - Bis: </div> (vor PDF-Export-Container)
-             
-             Das beinhaltet:
-             - Leitidee
-             - Alle Lebensbezüge
-             - Alle Kompetenzen
-             - Freibereich
-        ======================================== -->
-        
         <div class="theme-content show">
             <div class="leitidee">
                 <h3>Leitidee</h3>
-                <p>Der Beginn meiner Ausbildung markiert den Beginn einer neuen Phase in meinem Leben...</p>
+                <p>Der Beginn meiner Ausbildung markiert den Beginn einer neuen Phase in meinem Leben. In diesem neuen, komplexen und vernetzten beruflichen Umfeld informiere ich mich über meine Rechte und Pflichten, <span data-zirk-spr="kommunizieren">kommuniziere</span> angemessen, bin in der Lage, <span data-zirk-ges="konflikt">Konflikte zu bewältigen</span> und mich sozial zu integrieren.</p>
             </div>
             
-            <!-- HIER DEN REST DES THEMA-CONTENTS EINFÜGEN -->
+            <div class="lebensbezug">
+                <div class="lebensbezug-header" onclick="toggleLebensbezug(this)">
+                    <h3><strong>1. Individueller Lebensbezug:</strong> Meine Ausbildung findet im Betrieb, in der Berufsfachschule und in den überbetrieblichen Kursen statt. Dort begegne ich verschiedenen Menschen und es werden unterschiedliche Erwartungen an mich gestellt.</h3>
+                </div>
+                <div class="lebensbezug-content">
+                    <div class="lerninhalt">
+                        <div class="kompetenz-header">
+                            <h4>Kompetenz 1: <span class="normal-weight">An den Lernorten und im Fach ABU finde ich mich zurecht und kommuniziere gezielt.</span></h4>
+                        <div class="schluesselkompetenzen-inline">
+                            <strong>Schlüsselkompetenzen:</strong>
+                            <span class="kompetenz-nummer-link" data-k="1.1" data-text="Zwischen relevanten und irrelevanten Quellen und Inhalten unterscheiden">1.1</span>
+                            <span class="kompetenz-nummer-link" data-k="1.4" data-text="In unterschiedlichen Teams zielgerichtet und effizient arbeiten">1.4</span>
+                            <span class="kompetenz-nummer-link" data-k="1.10" data-text="Sich in einem sich ständig verändernden Umfeld zurechtfinden und sich an dieses anpassen">1.10</span>
+                        </div>
+                        </div>
+                        <div class="lerninhalt-content">
+                        <div class="table-container">
+                            <div class="table-header" onclick="toggleTable(this)">
+                                <h5>Inhalte</h5>
+                                <span class="table-toggle">▼</span>
+                            </div>
+                            <div class="table-content">
+                                <table class="kompetenz-table">
+                                    <tbody>
+                                        <tr>
+                                            <th class="col-gesellschaft" style="width: 50%;">Gesellschaft</th>
+                                            <th class="col-sprache" style="width: 50%;">Sprache und Kommunikation</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-gesellschaft">
+                                                <p><span data-k="2.2" data-kat="gesellschaft">2.2. Identität & Sozialisation</span><br><span data-k="2.7" data-kat="gesellschaft">2.7. Technologische und digitale Transformation</span><br>Aufbau und Abläufe der <strong>Berufsfachschule</strong> und des <strong>Fachs ABU </strong>kennen und Angebote gezielt nutzen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                            <td class="col-sprache">
+                                                <p><span data-k="4.8" data-kat="sprache">4.8. Interaktion & Kollaboration schriftlich</span><br>Mit formellen Formulierungs- und Orthografiehilfen angemessen <strong><span data-zirk-spr="korrespondieren">schriftlich kommunizieren</span></strong> mit Ansprechpersonen aus den drei Lernorten.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Höflichkeit, Geschäftsbrief, Duden</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-digital" colspan="2"><span>Medien und Digitalität</span></th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.2" data-kat="digital">3.2. Informations- & Datenkompetenz</span><br>Ausbildungsrelevante Websites, IT-Infrastrukturen und <strong>digitale Werkzeuge</strong> einrichten und sicher nutzen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.1" data-kat="digital">3.1. Grundlagen der Informatikz</span><br>Vorgaben der Schule zur <strong>Nutzung von KI</strong> und der Angabe von <strong>Angabe von Quellen</strong> kennen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="spacing-row">
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-gesellschaft" style="width: 50%;">Gesellschaft</th>
+                                            <th class="col-sprache" style="width: 50%;">Sprache und Kommunikation</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-gesellschaft">
+                                                <p><span data-k="2.2" data-kat="gesellschaft">2.2. Identität & Sozialisation</span><br>Meine Aufgaben an den <strong>3 Lernorten</strong> (Betrieb, Schule, ÜK) kennen und wahrnehmen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                            <td class="col-sprache">
+                                                <p><span data-k="4.6" data-kat="sprache">4.6. Produktion multimedial</span><br><span data-k="4.7" data-kat="sprache">4.7. Interaktion & Kollaboration mündlich</span><br><strong><span data-zirk-spr="praesentieren">Vorstellung</span></strong> des Lehrbetriebs mit Einbindung eines <strong><span data-zirk-spr="quellen">Interviews</span></strong> und eigenen Erfahrungen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Beschreibung, Interview, Zusammenfassung</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-digital" colspan="2"><span>Medien und Digitalität</span></th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.1" data-kat="digital">3.1. Grundlagen der Informatik</span><br><strong>Grundfunktionen</strong> von Programmen (Bild, Text, Ton, Film) zur Bearbeitung und Gestaltung anwenden.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="umsetzung-box umsetzung-box-bottom" onclick="toggleSchluessel(this)">
+                            <div class="schluessel-header">
+                                <h4>Umsetzungsbeispiel</h4>
+                                <span class="toggle-schluessel">▼</span>
+                            </div>
+                            <div class="schluessel-content">
+                                <p>-</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="lerninhalt">
+                        <div class="kompetenz-header">
+                            <h4>Kompetenz 2: <span class="normal-weight">Ich setze Arbeits-, Lern- und Kommunikationsstrategien so ein, dass sie mir helfen, meine Ziele zu erreichen.</span></h4>
+                        <div class="schluesselkompetenzen-inline">
+                            <strong>Schlüsselkompetenzen:</strong>
+                            <span class="kompetenz-nummer-link" data-k="1.2" data-text="Sich selbst Ziele setzen, die Zielsetzung überprüfen und sich adaptiv verhalten">1.2</span>
+                            <span class="kompetenz-nummer-link" data-k="1.4" data-text="Die Perspektiven anderer Personen nachvollziehen, Konflikte lösen und fair handeln">1.4</span>
+                            <span class="kompetenz-nummer-link" data-k="1.7" data-text="Unterschiedliche Standpunkte nachvollziehen und das gegenseitige Verständnis fördern">1.7</span>
+                        </div>
+                        </div>
+                        <div class="lerninhalt-content">
+                        <div class="table-container">
+                            <div class="table-header" onclick="toggleTable(this)">
+                                <h5>Inhalte</h5>
+                                <span class="table-toggle">▼</span>
+                            </div>
+                            <div class="table-content">
+                                <table class="kompetenz-table">
+                                    <tbody>
+                                        <tr>
+                                            <th class="col-gesellschaft" style="width: 50%;">Gesellschaft</th>
+                                            <th class="col-sprache" style="width: 50%;">Sprache und Kommunikation</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-gesellschaft">
+                                                <p><span data-k="2.2" data-kat="gesellschaft">2.2. Identität & Sozialisation</span><br>Das eigene <strong>Arbeits- und Lernverhalten</strong> im neuen Umfeld <span data-zirk-spr="reflektieren">reflektieren</span> und gegebenenfalls anpassen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                            <td class="col-sprache">
+                                                <p><span data-k="4.5" data-kat="sprache">4.5. Produktion schriftlich & bildlich</span><br>Durch eine <strong>Sachstruktur</strong> (Mindmap) Erwartungen, Prozesse oder Strukturen zum Arbeits- und Lernverhalten darstellen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Sachstruktur</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-digital" colspan="2"><span>Medien und Digitalität</span></th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.1" data-kat="digital">3.1. Grundlagen der Informatik</span><br>(Digitale) Tools als <strong>Organisationsunterstützung</strong> und/oder <strong>Lernhilfen</strong> nutzen (Kalender, Lernhilfen, …).</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="spacing-row">
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-gesellschaft" style="width: 50%;">Gesellschaft</th>
+                                            <th class="col-sprache" style="width: 50%;">Sprache und Kommunikation</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-gesellschaft">
+                                                <p><span data-k="2.2" data-kat="gesellschaft">2.2. Identität & Sozialisation</span><br>Sich als Teil einer <strong>Lerngemeinschaft</strong> wahrnehmen und respektvoll mit anderen umgehen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                            <td class="col-sprache">
+                                                <p><span data-k="4.7" data-kat="sprache">4.7. Interaktion & Kollaboration mündlich</span><br>Situationsgerechte und respektvolle <strong><span data-zirk-spr="kommunizieren">Kommunikationsformen</span></strong> anwenden (verbal und nonverbal), <span data-zirk-ges="konflikt">Konflikte konstruktiv lösen</span>.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-digital" colspan="2"><span>Medien und Digitalität</span></th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.7" data-kat="digital">3.6. Ethische & reflektive Haltung</span><br>Umgang mit Apps/Programmen (Klassenchat) für die <strong>digitale Zusammenarbeit</strong>.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="umsetzung-box umsetzung-box-bottom" onclick="toggleSchluessel(this)">
+                            <div class="schluessel-header">
+                                <h4>Umsetzungsbeispiel</h4>
+                                <span class="toggle-schluessel">▼</span>
+                            </div>
+                            <div class="schluessel-content">
+                                <p>-</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            </div>
             
+            <div class="lebensbezug">
+                <div class="lebensbezug-header" onclick="toggleLebensbezug(this)">
+                    <h3><strong>2. Individueller Lebensbezug:</strong> Ich habe durch das Gesetz und meinen Arbeitsvertrag Rechte und Pflichten.</h3>
+                </div>
+                <div class="lebensbezug-content">
+                    <div class="lerninhalt">
+                        <div class="kompetenz-header">
+                            <h4>Kompetenz 1: <span class="normal-weight">Ich nehme meine Rechte und Pflichten wahr, so wie sie gesetzlich und vertraglich festgelegt sind.</span></h4>
+                        <div class="schluesselkompetenzen-inline">
+                            <strong>Schlüsselkompetenzen:</strong>
+                            <span class="kompetenz-nummer-link" data-k="1.7" data-text="Die Folgen der eigenen Handlungen berücksichtigen">1.7</span>
+                        </div>
+                        </div>
+                        <div class="lerninhalt-content">
+                        <div class="table-container">
+                            <div class="table-header" onclick="toggleTable(this)">
+                                <h5>Inhalte</h5>
+                                <span class="table-toggle">▼</span>
+                            </div>
+                            <div class="table-content">
+                                <table class="kompetenz-table">
+                                    <tbody>
+                                        <tr>
+                                            <th class="col-gesellschaft" style="width: 50%;">Gesellschaft</th>
+                                            <th class="col-sprache" style="width: 50%;">Sprache und Kommunikation</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-gesellschaft">
+                                                <p><span data-k="2.6" data-kat="gesellschaft">2.6. Recht</span><br>Basierend auf der <strong>Rechtsordnung</strong> der Schweiz die Rechte und Pflichten der <span data-zirk-ges="vertrag">Vertragsparteien</span> beim <strong>Lehrvertrag</strong> kennen und damit umgehen.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>-</p>
+                                            </td>
+                                            <td class="col-sprache">
+                                                <p><span data-k="4.7" data-kat="sprache">4.7. Interaktion & Kollaboration mündlich</span><br><strong>Vergleich von <span data-zirk-spr="informieren">Informationen</span></strong> aus Verträgen, Richtlinien der Betriebe, etc.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Instrument «Lesen von nichtlinearen Texten»</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-digital" colspan="2"><span>Medien und Digitalität</span></th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.5" data-kat="digital">3.4. Problemlösung</span><br><strong>Recherche</strong> zu meinen <span data-zirk-ges="recht">Rechten</span> auf geeigneten Webseiten.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Webseite «Ich kenne meine Rechte»<br><a href="https://www.rechte-der-lernenden.ch/" target="_blank" rel="noopener noreferrer">rechte-der-lernenden.ch</a></p>
+                                            </td>
+                                        </tr>
+                                        <tr class="spacing-row">
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-gesellschaft" style="width: 50%;">Gesellschaft</th>
+                                            <th class="col-sprache" style="width: 50%;">Sprache und Kommunikation</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-gesellschaft">
+                                                <p><span data-k="2.6" data-kat="gesellschaft">2.6. Recht</span><br>Situationen während des Lehrverhältnisses aufgrund der <strong><span data-zirk-ges="recht">gesetzlichen Grundlagen</span></strong> überprüfen und Lösungsansätze formulieren.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Instrument «Wer schuldet wem was?»</p>
+                                            </td>
+                                            <td class="col-sprache">
+                                                <p><span data-k="4.2" data-kat="sprache">4.2. Rezeption schriftlich & bildlich</span><br><span data-zirk-ges="recht">Gesetzlichen Grundlagen</span> <strong><span data-zirk-spr="informieren">Informationen</span> entnehmen</strong> und diese interpretieren.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Instrument «Wer schuldet wem was?»</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="col-digital" colspan="2"><span>Medien und Digitalität</span></th>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-digital col-digital-content" colspan="2">
+                                                <p><span data-k="3.5" data-kat="digital">3.4. Problemlösung</span><br>Nutzung von <strong>Online-Gesetzen und -Verordnungen</strong>.</p>
+                                                <p style="background-color: white; padding: 8px 10px; margin-top: 0; font-size: 0.75em; color: #000;"><span style="color: #666;">Beispielhafte Instrumente / Tools / Webseiten</span><br>Webseite <br><a href="https://www.fedlex.admin.ch/" target="_blank" rel="noopener noreferrer">fedlex.admin.ch</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="umsetzung-box umsetzung-box-bottom" onclick="toggleSchluessel(this)">
+                            <div class="schluessel-header">
+                                <h4>Umsetzungsbeispiel</h4>
+                                <span class="toggle-schluessel">▼</span>
+                            </div>
+                            <div class="schluessel-content">
+                                <p>-</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+            
+            <div class="freibereich-section">
+                <div class="freibereich-header" onclick="toggleFreibereich(this)">
+                    <h3>Freibereich (20%)</h3>
+                </div>
+                <div class="freibereich-content">
+                    <h4 style="font-size: 0.9em; margin-bottom: 15px; font-weight: 700;">Inhalte / Lernziele</h4>
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+                                <th style="background: #fff4cc; padding: 5px 10px; text-align: left; font-size: 0.75em; font-weight: 700; border: 1px solid #000;">Gesellschaft</th>
+                            </tr>
+                            <tr>
+                                <td style="background: #fffef5; padding: 8px 10px; border: 1px solid #000; font-size: 0.8em;">
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">2.2. Identität und Sozialisation</span><br>Das schweizerische Bildungssystem am Beispiel des beruflichen Werdegangs des/r eigenen Vorgesetzten erfassen.</p>
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">2.2. Identität und Sozialisation</span><br>Die eigene Tätigkeit aufzeigen.</p>
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">2.1. Ethik</span><br>Eigene moralische Überzeugungen mit denen des Arbeitgebers abgleichen.</p>
+                                    <p style="margin-bottom: 0;"><span style="font-style: italic;">2.3. Kultur</span><br>Verhaltenserwartungen zwischen verschiedenen Kulturen und Generationen analysieren.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="background: #cce5ff; padding: 5px 10px; text-align: left; font-size: 0.75em; font-weight: 700; border: 1px solid #000;">Sprache und Kommunikation</th>
+                            </tr>
+                            <tr>
+                                <td style="background: #f5f9ff; padding: 8px 10px; border: 1px solid #000; font-size: 0.8em;">
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">4.5. Produktion schriftlich & bildlich</span><br>Inhalte aus einem Gespräch chronologisch gliedern und in Stichworten wiedergeben.</p>
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">4.6. Produktion multimedial</span><br>Den eigenen Tagesablauf mit allen Arbeitsschritten strukturiert wiedergeben.</p>
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">4.7. Interaktion & Kollaboration mündlich</span><br>Rollenspiel in beruflichen Situationen.</p>
+                                    <p style="margin-bottom: 0;"><span style="font-style: italic;">4.3. Rezeption audiovisuell</span><br>Generationsbezogene/kulturelle Verhaltensfragen mithilfe von multimedialen Inhalten erkennen.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="background: #d4edda; padding: 5px 10px; text-align: left; font-size: 0.75em; font-weight: 700; border: 1px solid #000;">Medien und Digitalität</th>
+                            </tr>
+                            <tr>
+                                <td style="background: #f0f8f0; padding: 8px 10px; border: 1px solid #000; font-size: 0.8em;">
+                                    <p style="margin-bottom: 10px;"><span style="font-style: italic;">3.1. Grundlagen der Informatik</span><br>Mit online-Tools eine Zeitachse mit Fixpunkten gestalten</p>
+                                    <p style="margin-bottom: 0;"><span style="font-style: italic;">3.1. Grundlagen der Informatik</span><br>Microsoft sinnvoll einsetzen.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-        
-        <!-- ======================================== -->
         
         <div class="pdf-export-container">
             <button class="pdf-export-button" onclick="exportToPDF()">Als PDF exportieren</button>
