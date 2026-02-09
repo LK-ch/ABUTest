@@ -1,1 +1,257 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schullehrplan ABU - Plan d'études de culture générale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background-color: #fff;
+        }
+        
+        /* Header */
+        header {
+            background: #fff;
+            color: #000;
+            padding: 10px 20px;
+            margin-bottom: 0;
+            box-shadow: none;
+            position: relative;
+        }
+        
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-section img {
+            height: 85px;
+            width: auto;
+        }
+        
+        /* Yellow separator strip */
+        .separator-strip {
+            background-color: #f9f3e8;
+            height: 30px;
+            width: 100%;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto 0 auto;
+            padding: 15px;
+        }
+        
+        main.container {
+            background-color: #fff;
+        }
+        
+        h1 {
+            color: #000;
+            font-size: 2.2em;
+            margin-bottom: 5px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #000;
+            font-size: 1em;
+            margin-bottom: 8px;
+            text-align: center;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .language-selection-container {
+            max-width: 800px;
+            margin: 35px auto 20px;
+            text-align: center;
+        }
+        
+        .selection-title {
+            font-size: 1.6em;
+            color: #000;
+            margin-bottom: 3px;
+            font-weight: 700;
+        }
+        
+        .selection-subtitle {
+            font-size: 1.6em;
+            color: #000;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+        
+        .language-selection {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .language-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #f5e6d3;
+            border: 2px solid #e0e0e0;
+            border-radius: 0;
+            padding: 30px 40px;
+            text-decoration: none;
+            color: #000;
+            transition: all 0.3s ease;
+            flex: 1;
+            max-width: 280px;
+            box-shadow: none;
+        }
+        
+        .language-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            border-color: #dc291e;
+            background-color: #ecdcc4;
+        }
+        
+        .language-button .name {
+            font-size: 1.4em;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000;
+        }
+        
+        .language-button .label {
+            font-size: 0.9em;
+            color: #666;
+            font-weight: 400;
+        }
+        
+        footer {
+            background: #f9f3e8;
+            color: #000;
+            text-align: center;
+            padding: 20px 20px;
+            margin-top: 50px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        footer p {
+            font-size: 0.85em;
+            margin: 5px 0;
+            color: #000;
+        }
+        
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .logo-section img {
+                height: 70px;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .subtitle {
+                font-size: 0.9em;
+            }
+            
+            .selection-title,
+            .selection-subtitle {
+                font-size: 1.3em;
+            }
+            
+            .language-selection {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .language-button {
+                padding: 25px 30px;
+                max-width: 100%;
+            }
+            
+            .language-button .name {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="./images/KTBE.png" alt="Kanton Bern Logo">
+            </div>
+        </div>
+    </header>
+    
+    <!-- Yellow separator strip -->
+    <div class="separator-strip"></div>
+    
+    <main class="container">
+        <h1>Schullehrplan ABU</h1>
+        <h1 style="margin-top: 3px;">Plan d'études de culture générale</h1>
+        <p class="subtitle">
+            Schullehrplan für den allgemeinbildenden Unterricht an Berufsfachschulen 
+            des Kantons Bern, basierend auf dem Rahmenlehrplan ABU 2030
+        </p>
+        <p class="subtitle" style="margin-bottom: 25px;">
+            Plan d'études de culture générale pour les écoles professionnelles 
+            du canton de Berne, basé sur le plan d'études cadre CG 2030
+        </p>
+        
+        <div class="language-selection-container">
+            <h2 class="selection-title">Schullehrplan ABU</h2>
+            <p class="selection-subtitle">Plan d'études de culture générale</p>
+            
+            <div class="language-selection">
+                <a href="index_de.html" class="language-button">
+                    <div class="name">Deutsch</div>
+                    <div class="label">Sprache wählen</div>
+                </a>
+                
+                <a href="index_fr.html" class="language-button">
+                    <div class="name">Français</div>
+                    <div class="label">Choisir la langue</div>
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Digital umgesetzt mit der Unterstützung des Digital Learning Hub Zürich (DLH) – vielen Dank für die Zusammenarbeit!</p>
+        <p>Mise en œuvre numérique avec le soutien du Digital Learning Hub Zurich (DLH) – merci beaucoup pour la collaboration !</p>
+    </footer>
+</body>
+</html>
